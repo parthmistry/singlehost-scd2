@@ -1,0 +1,14 @@
+plugins {
+    id "scala"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.scala-lang:scala-library:2.12.12"
+    implementation "org.apache.spark:spark-core_2.12:3.3.2"
+    implementation "org.apache.spark:spark-sql_2.12:3.3.2"
+    implementation "io.delta:delta-core_2.12:2.2.0"
+}
